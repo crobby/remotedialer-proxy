@@ -4,8 +4,6 @@ go 1.24.0
 
 toolchain go1.24.6
 
-replace github.com/rancher/remotedialer => ../remotedialer
-
 require (
 	github.com/gorilla/mux v1.8.1
 	github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674

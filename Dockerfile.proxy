@@ -2,12 +2,9 @@ FROM golang:1.24 AS builder
 WORKDIR /app
 
 COPY . .
-#uncomment this
-#RUN go mod download
+RUN go mod download
 
-#swap this line back in with the one below
-#RUN CGO_ENABLED=0 go build -o proxy ./cmd/proxy
-RUN CGO_ENABLED=0 go build -mod=vendor -o proxy ./cmd/proxy
+RUN CGO_ENABLED=0 go build -o proxy ./cmd/proxy
 
 FROM scratch
 COPY --from=builder /app/proxy .

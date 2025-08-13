@@ -86,6 +86,8 @@ github.com/rancher/dynamiclistener v0.7.0 h1:+jyfZ4lVamc1UbKWo8V8dhSPtCgRZYaY8nm
 github.com/rancher/dynamiclistener v0.7.0/go.mod h1:Q2YA42xp7Xc69JiSlJ8GpvLvze261T0iQ/TP4RdMCYk=
 github.com/rancher/lasso v0.2.3 h1:74/z/C/O3ykhyMrRuEgc9kVyYiSoS7kp5BAijlcyXDg=
 github.com/rancher/lasso v0.2.3/go.mod h1:G+KeeOaKRjp+qGp0bV6VbLhYrq1vHbJPbDh40ejg5yE=
+github.com/rancher/remotedialer v0.5.0 h1:4H1o9ZBdA1nboaMPBvy03EQlFWXXzwcdMAXLmafop54=
+github.com/rancher/remotedialer v0.5.0/go.mod h1:hpx8oaoxXyy8yHMWH5Iv8GcdVlYEYYzgVNjeXZrhv8E=
 github.com/rancher/wrangler/v3 v3.2.2 h1:IK1/v8n8gaZSB4izmJhGFXJt38Z8gkbwzl3Lo/e2jQc=
 github.com/rancher/wrangler/v3 v3.2.2/go.mod h1:TA1QuuQxrtn/kmJbBLW/l24IcfHBmSXBa9an3IRlqQQ=
 github.com/rogpeppe/go-internal v1.13.1 h1:KvO1DLK/DRN07sQ1LQKScxyZJuNnedQ5/wKSR38lUII=
